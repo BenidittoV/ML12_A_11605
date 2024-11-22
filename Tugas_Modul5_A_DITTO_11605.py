@@ -5,7 +5,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 
-model_path = r'"D:\Ditto\Kuliah\Matkul\Semester 5\ML\Pertemuan 12\Introduction to Deep Learning (Praktek)\best_model_tf.h5"'
+model_path = r'best_model_tf.h5'
 
 if os.path.exists(model_path):
     try:
